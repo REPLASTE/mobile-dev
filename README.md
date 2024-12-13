@@ -22,7 +22,8 @@
 this application can detect and classify various plastic waste items using computer vision and a Convolutional Neural Network (CNN) model. By integrating this AI-powered recognition capability into the app, we can offer users real-time guidance on the appropriate recycling or disposal methods for each type of plastic. This will empower individuals to make more informed decisions and develop sustainable waste management habits.
 
 ## Technology
-
+1. Android Studio
+2. Kotlin
 
 
 
@@ -42,4 +43,4 @@ this application can detect and classify various plastic waste items using compu
 ## Download Our Apps
 
 
-You can download it here:  
+You can download it here:  https://bit.ly/Replaste
