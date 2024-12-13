@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/replaste_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/replaste_primary">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background_surface"
+            app:navigationIcon="@drawable/ic_back"
+            app:navigationIconTint="@color/black"
+            app:titleTextAppearance="@style/TextAppearance.Custom.Toolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivPlasticDetailImage"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:contentDescription="Gambar detail jenis plastik"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/CustomCardCornerStyle" />
+
+            <TextView
+                android:id="@+id/tvPlasticName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/replaste_text_primary"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivPlasticDetailImage"
+                tools:text="Polyethylene Terephthalate (PET)" />
+
+            <TextView
+                android:id="@+id/tvPlasticDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/replaste_text_secondary"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPlasticName"
+                tools:text="PET adalah plastik yang sering digunakan untuk botol minuman dan wadah makanan karena sifatnya yang kuat dan ringan." />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardPlasticDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPlasticDescription"
+                app:strokeColor="@color/outline_color"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Informasi Plastik"
+                        android:textColor="@color/replaste_text_primary"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvRecyclingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/replaste_text_secondary"
+                        app:drawableStartCompat="@drawable/ic_time"
+                        tools:text="Waktu Daur Ulang: 20-500 tahun" />
+
+                    <TextView
+                        android:id="@+id/tvProdukPenggunaan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/replaste_text_secondary"
+                        app:drawableStartCompat="@drawable/ic_product"
+                        tools:text="Produk Penggunaan: Botol minuman, Wadah makanan, Serat tekstil" />
+
+                    <TextView
+                        android:id="@+id/tvEnvironmentalImpact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:drawablePadding="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/replaste_text_secondary"
+                        app:drawableStartCompat="@drawable/ic_environment"
+                        tools:text="Dampak Lingkungan: Dapat mencemari tanah dan air, berpotensi menghasilkan mikroplastik" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardRecyclingGuide"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardPlasticDetails"
+                app:strokeColor="@color/outline_color"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp"
+                    android:paddingHorizontal="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Panduan Daur Ulang"
+                        android:textColor="@color/replaste_text_primary"
+                        android:textSize="18sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnRecyclingGuide1"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_chevron_right"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Panduan Daur Ulang Tahap 1"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/replaste_text_secondary"
+                        android:paddingVertical="12dp"
+                        android:paddingHorizontal="0dp"
+                        app:iconGravity="textEnd" />
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="4dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnRecyclingGuide2"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableEnd="@drawable/ic_chevron_right"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Panduan Daur Ulang Tahap 2"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/replaste_text_secondary"
+                        android:paddingVertical="12dp"
+                        android:paddingHorizontal="0dp"
+                        app:iconGravity="textEnd" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

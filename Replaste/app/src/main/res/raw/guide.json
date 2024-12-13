@@ -1,0 +1,298 @@
+{
+  "data": [
+    {
+      "plastic_full_name": "Polyethylene Terephthalate (PET)",
+      "type": "PET",
+      "introduction": "Daur ulang plastik PET adalah proses penting untuk mengurangi limbah dan melindungi lingkungan. Ikuti panduan langkah demi langkah ini untuk memastikan daur ulang yang efektif.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Cuci bersih botol plastik dari sisa makanan, label, dan kotoran. Gunakan air mengalir dan sabun ringan."
+            },
+            {
+              "step_title": "Pisahkan Berdasarkan Jenis",
+              "importance": "Kunci Utama",
+              "description": "Kelompokkan plastik berdasarkan jenis (PET, HDPE, dll). Perhatikan kode daur ulang di bawah kemasan."
+            },
+            {
+              "step_title": "Proses Daur Ulang",
+              "importance": "Tahap Akhir",
+              "description": "Kumpulkan plastik yang telah dipisahkan ke tempat daur ulang terdekat atau ikuti program daur ulang resmi."
+            }
+          ],
+          "video": "https://youtu.be/GLGcpseaQyc?si=sAFuNlT89ajmHqK6"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Cuci bersih botol plastik dari sisa makanan, label, dan kotoran. Gunakan air mengalir dan sabun ringan."
+            },
+            {
+              "step_title": "Pisahkan Berdasarkan Jenis",
+              "importance": "Kunci Utama",
+              "description": "Kelompokkan plastik berdasarkan jenis (PET, HDPE, dll). Perhatikan kode daur ulang di bawah kemasan."
+            },
+            {
+              "step_title": "Proses Daur Ulang",
+              "importance": "Tahap Akhir",
+              "description": "Kumpulkan plastik yang telah dipisahkan ke tempat daur ulang terdekat atau ikuti program daur ulang resmi."
+            }
+          ],
+          "video": "https://youtu.be/_j9vYm68PNM?si=OSqeGQq1VRBtyfr6"
+        }
+      ]
+    },
+    {
+      "plastic_full_name": "High-Density Polyethylene (HDPE)",
+      "type": "HDPE",
+      "introduction": "HDPE adalah plastik tahan lama yang sering digunakan untuk galon, botol sabun, dan tas belanja. Proses daur ulangnya sedikit berbeda dari PET.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Bilas botol HDPE dengan air bersih untuk menghilangkan sisa sabun atau bahan kimia."
+            },
+            {
+              "step_title": "Pemisahan dari Material Lain",
+              "importance": "Kunci Utama",
+              "description": "Pisahkan HDPE dari plastik atau material lain seperti tutup botol yang mungkin terbuat dari plastik jenis berbeda."
+            },
+            {
+              "step_title": "Proses Daur Ulang",
+              "importance": "Tahap Akhir",
+              "description": "HDPE dilebur dan dicetak ulang menjadi produk baru seperti pipa atau wadah plastik daur ulang."
+            }
+          ],
+          "video": "https://youtu.be/Dkoo7rYc2L0?si=v7mU9Us78_1OG65W"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Bilas botol HDPE dengan air bersih untuk menghilangkan sisa sabun atau bahan kimia."
+            },
+            {
+              "step_title": "Pemisahan dari Material Lain",
+              "importance": "Kunci Utama",
+              "description": "Pisahkan HDPE dari plastik atau material lain seperti tutup botol yang mungkin terbuat dari plastik jenis berbeda."
+            },
+            {
+              "step_title": "Proses Daur Ulang",
+              "importance": "Tahap Akhir",
+              "description": "HDPE dilebur dan dicetak ulang menjadi produk baru seperti pipa atau wadah plastik daur ulang."
+            }
+          ],
+          "video": "https://youtu.be/b8BQXyIvKLU?si=FjQnPdYPHWtpowpo"
+        }
+      ]
+    },
+    {
+      "plastic_full_name": "Polyvinyl Chloride (PVC)",
+      "type": "PVC",
+      "introduction": "PVC biasanya digunakan untuk pipa, pelapis kabel, atau kemasan tertentu. Plastik ini memerlukan proses daur ulang khusus.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Identifikasi Material",
+              "importance": "Kunci Utama",
+              "description": "Pastikan material yang akan didaur ulang adalah PVC. Cek kode daur ulang pada produk."
+            },
+            {
+              "step_title": "Pengumpulan ke Fasilitas Khusus",
+              "importance": "Penting",
+              "description": "Kumpulkan PVC di fasilitas daur ulang yang memiliki teknologi untuk mengolahnya."
+            },
+            {
+              "step_title": "Pemrosesan Khusus",
+              "importance": "Tahap Akhir",
+              "description": "PVC dilebur menjadi bahan mentah untuk produk baru seperti pipa atau lantai vinil."
+            }
+          ],
+          "video": "https://youtu.be/AZ-2k323YPg?si=X-U7G_WPSpp-rAcA"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Identifikasi Material",
+              "importance": "Kunci Utama",
+              "description": "Pastikan material yang akan didaur ulang adalah PVC. Cek kode daur ulang pada produk."
+            },
+            {
+              "step_title": "Pengumpulan ke Fasilitas Khusus",
+              "importance": "Penting",
+              "description": "Kumpulkan PVC di fasilitas daur ulang yang memiliki teknologi untuk mengolahnya."
+            },
+            {
+              "step_title": "Pemrosesan Khusus",
+              "importance": "Tahap Akhir",
+              "description": "PVC dilebur menjadi bahan mentah untuk produk baru seperti pipa atau lantai vinil."
+            }
+          ],
+          "video": "https://youtu.be/gQtru-mRkuk?si=s39_iBZdpsPr1cMI"
+        }
+      ]
+    },
+    {
+      "plastic_full_name": "Low-Density Polyethylene (LDPE)",
+      "type": "LDPE",
+      "introduction": "LDPE adalah plastik lentur yang sering digunakan untuk kantong plastik, pembungkus makanan, atau botol fleksibel.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Plastik",
+              "importance": "Penting",
+              "description": "Pastikan plastik bersih dari minyak atau sisa makanan sebelum didaur ulang."
+            },
+            {
+              "step_title": "Pisahkan Berdasarkan Warna",
+              "importance": "Opsional",
+              "description": "Jika memungkinkan, pisahkan LDPE berdasarkan warna untuk hasil daur ulang yang lebih baik."
+            },
+            {
+              "step_title": "Pengumpulan",
+              "importance": "Tahap Akhir",
+              "description": "Kumpulkan plastik LDPE di fasilitas daur ulang yang menerima jenis ini."
+            }
+          ],
+          "video": "https://youtu.be/FgVcnZL_An8?si=meVUSytgT-xtbes9"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Plastik",
+              "importance": "Penting",
+              "description": "Pastikan plastik bersih dari minyak atau sisa makanan sebelum didaur ulang."
+            },
+            {
+              "step_title": "Pisahkan Berdasarkan Warna",
+              "importance": "Opsional",
+              "description": "Jika memungkinkan, pisahkan LDPE berdasarkan warna untuk hasil daur ulang yang lebih baik."
+            },
+            {
+              "step_title": "Pengumpulan",
+              "importance": "Tahap Akhir",
+              "description": "Kumpulkan plastik LDPE di fasilitas daur ulang yang menerima jenis ini."
+            }
+          ],
+          "video": "https://youtu.be/pZVS1jaY1vE?si=OiZ5zwshT3b6PydR"
+        }
+      ]
+    },
+    {
+      "plastic_full_name": "Polypropylene (PP)",
+      "type": "PP",
+      "introduction": "PP adalah plastik yang digunakan untuk sedotan, tutup botol, atau wadah makanan. Plastik ini ringan dan tahan panas.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Bilas plastik PP dari sisa makanan atau bahan lain menggunakan air bersih."
+            },
+            {
+              "step_title": "Pemotongan Plastik",
+              "importance": "Opsional",
+              "description": "Potong plastik PP menjadi bagian kecil untuk mempermudah proses daur ulang."
+            },
+            {
+              "step_title": "Proses Peleburan",
+              "importance": "Tahap Akhir",
+              "description": "Plastik PP dilebur dan dicetak ulang menjadi produk baru seperti ember atau peralatan rumah tangga."
+            }
+          ],
+          "video": "https://youtu.be/BdYsTjMQRG0?si=d14ErYjsQYBI8yz_"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Pembersihan Awal",
+              "importance": "Penting",
+              "description": "Bilas plastik PP dari sisa makanan atau bahan lain menggunakan air bersih."
+            },
+            {
+              "step_title": "Pemotongan Plastik",
+              "importance": "Opsional",
+              "description": "Potong plastik PP menjadi bagian kecil untuk mempermudah proses daur ulang."
+            },
+            {
+              "step_title": "Proses Peleburan",
+              "importance": "Tahap Akhir",
+              "description": "Plastik PP dilebur dan dicetak ulang menjadi produk baru seperti ember atau peralatan rumah tangga."
+            }
+          ],
+          "video": "https://youtu.be/JtX2jKS7SHw?si=qdLnBON-TOyHisEF"
+        }
+      ]
+    },
+    {
+      "plastic_full_name": "Polystyrene (PS)",
+      "type": "PS",
+      "introduction": "PS adalah plastik ringan yang sering digunakan untuk styrofoam, gelas sekali pakai, atau kemasan makanan.",
+      "plastics": [
+        {
+          "id_recycling_step": 1,
+          "recycling_steps": [
+            {
+              "step_title": "Pisahkan dari Sampah Lain",
+              "importance": "Kunci Utama",
+              "description": "Pastikan PS dipisahkan dari material lain untuk menghindari kontaminasi."
+            },
+            {
+              "step_title": "Kompress Styrofoam",
+              "importance": "Opsional",
+              "description": "Jika PS berbentuk styrofoam, tekan agar ukurannya lebih kecil sebelum dikirim ke fasilitas daur ulang."
+            },
+            {
+              "step_title": "Daur Ulang di Fasilitas Khusus",
+              "importance": "Tahap Akhir",
+              "description": "Bawa PS ke fasilitas daur ulang khusus yang mampu memproses plastik jenis ini."
+            }
+          ],
+          "video": "https://youtu.be/GD1pYJXZqFk?si=TJGMGCfRf95UQsQu"
+        },
+        {
+          "id_recycling_step": 2,
+          "recycling_steps": [
+            {
+              "step_title": "Pisahkan dari Sampah Lain",
+              "importance": "Kunci Utama",
+              "description": "Pastikan PS dipisahkan dari material lain untuk menghindari kontaminasi."
+            },
+            {
+              "step_title": "Kompress Styrofoam",
+              "importance": "Opsional",
+              "description": "Jika PS berbentuk styrofoam, tekan agar ukurannya lebih kecil sebelum dikirim ke fasilitas daur ulang."
+            },
+            {
+              "step_title": "Daur Ulang di Fasilitas Khusus",
+              "importance": "Tahap Akhir",
+              "description": "Bawa PS ke fasilitas daur ulang khusus yang mampu memproses plastik jenis ini."
+            }
+          ],
+          "video": "https://youtu.be/XPB_W33iA1g?si=v7qJ7AVTLjsDqhFa"
+        }
+      ]
+    }
+  ]
+}

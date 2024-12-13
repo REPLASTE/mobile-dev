@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Replaste</string>
+    <string name="history_title">Riwayat Deteksi</string>
+    <string name="empty_history_title">Belum Ada Riwayat Deteksi</string>
+    <string name="empty_history_subtitle">Mulai deteksi plastik pertamamu dan lihat hasilnya di sini</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="login_button">Masuk</string>
+    <string name="no_account">Belum punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="app_logo_description">Logo Aplikasi</string>
+</resources>

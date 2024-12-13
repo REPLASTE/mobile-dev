@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_surface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/background_surface"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Panduan Daur Ulang PET"
+            app:navigationIconTint="@color/black"
+            app:titleTextAppearance="@style/TextAppearance.Custom.Toolbar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardIntroduction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="@color/replaste_primary"
+                app:strokeWidth="1dp"
+                android:clipToOutline="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Pengantar Daur Ulang"
+                        android:textColor="@color/replaste_primary"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/tvIntroduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Daur ulang plastik PET adalah proses penting untuk mengurangi limbah dan melindungi lingkungan. Ikuti panduan langkah demi langkah ini untuk memastikan daur ulang yang efektif."
+                        android:textColor="@color/replaste_text_secondary"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSteps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:strokeColor="@color/replaste_primary"
+                app:strokeWidth="1dp"
+                android:clipToOutline="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardIntroduction">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Panduan Daur Ulang Langkah Demi Langkah 🌍"
+                        android:textColor="@color/replaste_primary"
+                        android:textSize="18sp"/>
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="8dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="8dp">
+                        <TextView
+                            android:id="@+id/tv_step_title_a"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="🧼 Pembersihan Awal"
+                            android:textColor="@color/replaste_text_primary"
+                            android:textSize="16sp"/>
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/tv_step_importance_a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Penting"
+                            android:textColor="@color/white"
+                            app:chipBackgroundColor="@color/replaste_primary"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tv_step_description_a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Cuci bersih botol plastik dari sisa makanan, label, dan kotoran. Gunakan air mengalir dan sabun ringan."
+                        android:textColor="@color/replaste_text_secondary"
+                        android:layout_marginBottom="12dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="8dp">
+                        <TextView
+                            android:id="@+id/tv_step_title_b"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="✂️ Pisahkan Berdasarkan Jenis"
+                            android:textColor="@color/replaste_text_primary"
+                            android:textSize="16sp"/>
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/tv_step_importance_b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kunci Utama"
+                            android:textColor="@color/white"
+                            app:chipBackgroundColor="@color/replaste_primary"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tv_step_description_b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Kelompokkan plastik berdasarkan jenis (PET, HDPE, dll). Perhatikan kode daur ulang di bawah kemasan."
+                        android:textColor="@color/replaste_text_secondary"
+                        android:layout_marginBottom="12dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="8dp">
+                        <TextView
+                            android:id="@+id/tv_step_title_c"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="🔬 Proses Daur Ulang"
+                            android:textColor="@color/replaste_text_primary"
+                            android:textSize="16sp"/>
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/tv_step_importance_c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tahap Akhir"
+                            android:textColor="@color/white"
+                            app:chipBackgroundColor="@color/replaste_primary"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tv_step_description_c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Kumpulkan plastik yang sudah dipisahkan ke tempat daur ulang terdekat atau ikuti program daur ulang resmi."
+                        android:textColor="@color/replaste_text_secondary"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardYoutubeGuide"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:strokeColor="@color/replaste_primary"
+                app:strokeWidth="1dp"
+                android:clipToOutline="true"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardSteps">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Video Panduan"
+                        android:textColor="@color/replaste_primary"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Tonton video di bawah ini untuk panduan lebih lanjut tentang daur ulang plastik."
+                        android:textColor="@color/replaste_text_secondary"
+                        android:textSize="14sp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPlayVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableStart="@drawable/ic_play_arrow"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Tonton Video"
+                        android:textColor="@color/white"
+                        app:iconGravity="textStart"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Corner.Full" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="ToolbarTitleStyle">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.Custom.Toolbar" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BottomNavActiveIndicator">
+        <item name="android:width">0dp</item>
+        <item name="android:height">0dp</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Poppins" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="Poppins.SemiBold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="Poppins.SemiBold.Subtitle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Poppins.SemiBold.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Base Replaste Theme -->
+
+    <!-- Replaste TextInputLayout Style -->
+    <style name="ReplasteTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/replaste_primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/replaste_text_secondary</item>
+        <item name="android:textColorHint">@color/replaste_text_hint</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Replaste Button Style -->
+
+    <!-- Circular Image Style -->
+    <style name="CircularImageStyle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Modern Card Style -->
+
+    <!-- Custom Card Corner Style -->
+    <style name="CustomCardCornerStyle">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>

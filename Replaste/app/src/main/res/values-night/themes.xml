@@ -1,0 +1,20 @@
+<resources>
+    <style name="Theme.Replaste" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:forceDarkAllowed">false</item>
+
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorSecondaryVariant">@color/primary_800</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/secondaryColor</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

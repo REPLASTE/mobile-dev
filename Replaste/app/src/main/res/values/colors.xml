@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_500">#4CAF50</color>
+    <color name="primary_700">#388E3C</color>
+    <color name="primary_800">#2E7D32</color>
+    <color name="accentColor">#2196F3</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="secondaryColor">#DCEDC1</color>
+    <color name="textColorPrimary">#333333</color>
+
+    <color name="primary">#436B35</color>
+
+    <color name="date_background">#E6F7FF</color>
+    <color name="date_text">#007BFF</color>
+    <color name="secondary_text">#666666</color>
+    <color name="stroke_color">#1F000000</color>
+    <color name="category_background">#E6F2FF</color>
+    <color name="category_text">#2196F3</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="primary_text">#212121</color>
+    <color name="tertiary_text">#9E9E9E</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_active">#436B35</color>
+    <color name="bottom_nav_inactive">#757575</color>
+    <color name="illustration_tint">#E0E0E0</color>
+    <color name="primary_green">#A6E388</color>
+    <color name="primary_green_light">#D2FFCF</color>
+    <color name="error_red">#D32F2F</color>
+    <color name="success_green">#388E3C</color>
+    <color name="info_blue">#1976D2</color>
+
+    <color name="primary_color">#4CAF50</color>
+    <color name="primary_light">#E8F5E9</color>
+    <color name="status_bar_color">#30000000</color>
+
+    <color name="divider_color">#E0E0E0</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="replaste_primary">#2ECC71</color>
+    <color name="replaste_primary_dark">#27AE60</color>
+
+    <color name="replaste_background">#F4F6F7</color>
+
+    <color name="replaste_text_primary">#2C3E50</color>
+    <color name="replaste_text_secondary">#7F8C8D</color>
+    <color name="replaste_text_hint">#BDC3C7</color>
+
+    <color name="replaste_accent">#3498DB</color>
+
+    <color name="background_surface">#FFFFFF</color>
+    <color name="outline_color">#E0E0E0</color>
+</resources>
