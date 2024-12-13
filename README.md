@@ -24,23 +24,3 @@ this application can detect and classify various plastic waste items using compu
 ## Technology
 1. Android Studio
 2. Kotlin
-
-
-
-## Screenshots
-
-
-
-
-
-
-
-
-
-
-## Video demo
-
-## Download Our Apps
-
-
-You can download it here:  https://bit.ly/Replaste
